@@ -6,6 +6,8 @@ import Counter from './Counter'
 import Info from './Info'
 import MultiCounterTest from './MultiCounterTest'
 import MultiCounter from './MultiCounterTest'
+import AidtAPI from './AidtAPI'
+import Register from './Register'
 
 
 function App() {
@@ -13,16 +15,20 @@ function App() {
   return (
     <>
       {/* <h3>----- 나는 전구 -----</h3>
-      <LampController />
-      <h3>----- 여기는 카운터 -----</h3>
-      <Counter />
-      <h3>----- 여기는 인포 -----</h3>
+      <LampController /> */}
+      {/* <h3>----- 여기는 카운터 -----</h3>
+      <Counter /> */}
+      {/* <h3>----- 여기는 인포 -----</h3>
       <Info /> */}
-      <h3>----- 나는 멀티 카운터 -----</h3>
+      {/* <h3>----- 나는 멀티 카운터 -----</h3> */}
       {/* <MultiCounterTest />  */}
-      <MultiCounter />
+      {/* <MultiCounter /> */}
+      {/* <h3>----- hohoho -----</h3>
+      <AidtAPI /> */}
+      <h3>----- 나는 회원 등록 -----</h3>
+      <Register />
     </>
-  );ㅌ
+  );
 }
 
 export default App
